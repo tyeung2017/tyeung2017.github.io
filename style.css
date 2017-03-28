@@ -84,7 +84,7 @@ img {
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	background: url(img/c.jpg) /*no-repeat*/ 100% 100%;
+	background: url(img/c.jpg) 100% 100%;
 	background-size: cover;
 	display: table;
 	top: 0;
@@ -113,6 +113,11 @@ h1 {
 	font-size: 75%;
 	text-align: center;
 }
+
+.sidebar p{
+	color: #2C2C2C;
+	font-size: 85%;
+}
 .inner {
 	max-width: 600px;
 	margin: auto;
@@ -131,22 +136,7 @@ h1 {
 	float: left;
 	margin: 4%;
 }
-.one-third-port {
-	width: 29.333333%;
-	padding: 2%;
-	float: left;
-}
-.one-third-port img:hover {
-	opacity: .6;
-}
-/*.next p {
-	text-align: center;
-	/*letter-spacing: 5px;*/
-}
-.next a {
-	color: #2C2C2C;
-	text-decoration: none;
-}*/
+
 .break {
 	display: none;
 }
@@ -217,11 +207,6 @@ footer.second p {
 	}
 	img {
 		padding: 2%;
-	}
-	.one-third-port {
-		width: 96%;
-		margin: 0 auto;
-		padding: 0;
 	}
 	.break {
 		display: block;
