@@ -1,3 +1,3 @@
 # tyeung2017.github.io
 
-tetsing the github pages
+Application for FAC summer cohort 2017
